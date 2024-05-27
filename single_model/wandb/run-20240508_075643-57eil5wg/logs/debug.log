@@ -1,0 +1,39 @@
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Configure stats pid to 38497
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Loading settings from /home/cmdunham/.config/wandb/settings
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Loading settings from /home/cmdunham/mass_spec/mass_spec_repo/single_model/wandb/settings
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'denoiser.ipynb'}
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-08 07:56:43,007 INFO    MainThread:38497 [wandb_init.py:_log_setup():520] Logging user logs to /home/cmdunham/mass_spec/mass_spec_repo/single_model/wandb/run-20240508_075643-57eil5wg/logs/debug.log
+2024-05-08 07:56:43,008 INFO    MainThread:38497 [wandb_init.py:_log_setup():521] Logging internal logs to /home/cmdunham/mass_spec/mass_spec_repo/single_model/wandb/run-20240508_075643-57eil5wg/logs/debug-internal.log
+2024-05-08 07:56:43,008 INFO    MainThread:38497 [wandb_init.py:init():560] calling init triggers
+2024-05-08 07:56:43,008 INFO    MainThread:38497 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'wandb_entity': 'catemerfeld', 'wandb_project': 'mass_spec', 'gpu': True, 'threads': 1}
+2024-05-08 07:56:43,008 INFO    MainThread:38497 [wandb_init.py:init():585] re-initializing run, found existing run on stack: j6yoheci
+2024-05-08 07:56:43,008 INFO    MainThread:38497 [wandb_run.py:_finish():2103] finishing run catemerfeld/mass_spec/j6yoheci
+2024-05-08 07:56:43,009 ERROR   MainThread:38497 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-05-08 07:56:43,009 INFO    MainThread:38497 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-08 07:56:43,009 INFO    MainThread:38497 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-05-08 07:56:43,009 INFO    MainThread:38497 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-08 07:56:43,009 INFO    MainThread:38497 [wandb_run.py:_restore():2326] restore
+2024-05-08 07:56:43,009 INFO    MainThread:38497 [wandb_run.py:_restore():2332] restore done
+2024-05-08 07:56:47,480 INFO    MainThread:38497 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-08 07:56:47,480 INFO    MainThread:38497 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-08 07:56:47,486 INFO    MainThread:38497 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-08 07:56:47,570 INFO    MainThread:38497 [wandb_init.py:init():610] starting backend
+2024-05-08 07:56:47,570 INFO    MainThread:38497 [wandb_init.py:init():614] setting up manager
+2024-05-08 07:56:47,575 INFO    MainThread:38497 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-08 07:56:47,575 INFO    MainThread:38497 [wandb_init.py:init():622] backend started and connected
+2024-05-08 07:56:47,583 INFO    MainThread:38497 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-08 07:56:47,584 INFO    MainThread:38497 [wandb_init.py:init():711] updated telemetry
+2024-05-08 07:56:47,600 INFO    MainThread:38497 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-08 07:56:48,701 INFO    MainThread:38497 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-08 07:56:48,755 INFO    MainThread:38497 [wandb_run.py:_on_init():2405] got version response 
+2024-05-08 07:56:48,756 INFO    MainThread:38497 [wandb_init.py:init():795] starting run threads in backend
+2024-05-08 07:56:48,878 INFO    MainThread:38497 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-08 07:56:48,878 INFO    MainThread:38497 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-08 07:56:48,878 INFO    MainThread:38497 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-08 07:56:48,878 INFO    MainThread:38497 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-08 07:56:48,878 INFO    MainThread:38497 [wandb_init.py:init():838] run started, returning control to user process
