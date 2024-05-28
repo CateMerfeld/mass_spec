@@ -1,0 +1,3 @@
+[submodule "DeepCCA"]
+	path = DeepCCA
+	url = https://github.com/Michaelvll/DeepCCA.git
