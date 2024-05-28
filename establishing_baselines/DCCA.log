@@ -1,0 +1,52 @@
+[ INFO : 2024-05-28 11:22:29,835 ] - DataParallel(
+  (module): DeepCCA(
+    (model1): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=50, out_features=1024, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1-2): 2 x Sequential(
+          (0): Linear(in_features=1024, out_features=1024, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=1024, out_features=10, bias=True)
+        )
+      )
+    )
+    (model2): MlpNet(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Linear(in_features=977, out_features=1024, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (1-2): 2 x Sequential(
+          (0): Linear(in_features=1024, out_features=1024, bias=True)
+          (1): Sigmoid()
+          (2): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+        )
+        (3): Sequential(
+          (0): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+          (1): Linear(in_features=1024, out_features=10, bias=True)
+        )
+      )
+    )
+  )
+)
+[ INFO : 2024-05-28 11:22:29,836 ] - RMSprop (
+Parameter Group 0
+    alpha: 0.99
+    centered: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    lr: 0.001
+    maximize: False
+    momentum: 0
+    weight_decay: 1e-05
+)

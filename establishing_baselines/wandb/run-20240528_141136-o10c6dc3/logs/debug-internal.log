@@ -1,0 +1,246 @@
+2024-05-28 14:11:36,054 INFO    StreamThr :229611 [internal.py:wandb_internal():85] W&B internal server running at pid: 229611, started at: 2024-05-28 14:11:36.054268
+2024-05-28 14:11:36,057 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status
+2024-05-28 14:11:36,059 INFO    WriterThread:229611 [datastore.py:open_for_write():87] open: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/run-o10c6dc3.wandb
+2024-05-28 14:11:36,060 DEBUG   SenderThread:229611 [sender.py:send():378] send: header
+2024-05-28 14:11:36,087 DEBUG   SenderThread:229611 [sender.py:send():378] send: run
+2024-05-28 14:11:36,277 INFO    SenderThread:229611 [dir_watcher.py:__init__():211] watching files in: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files
+2024-05-28 14:11:36,277 INFO    SenderThread:229611 [sender.py:_start_run_threads():1123] run started: o10c6dc3 with start time 1716919896.054162
+2024-05-28 14:11:36,286 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: check_version
+2024-05-28 14:11:36,286 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: check_version
+2024-05-28 14:11:36,348 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: run_start
+2024-05-28 14:11:36,375 DEBUG   HandlerThread:229611 [system_info.py:__init__():26] System info init
+2024-05-28 14:11:36,375 DEBUG   HandlerThread:229611 [system_info.py:__init__():41] System info init done
+2024-05-28 14:11:36,375 INFO    HandlerThread:229611 [system_monitor.py:start():194] Starting system monitor
+2024-05-28 14:11:36,376 INFO    SystemMonitor:229611 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-28 14:11:36,376 INFO    HandlerThread:229611 [system_monitor.py:probe():214] Collecting system info
+2024-05-28 14:11:36,377 INFO    SystemMonitor:229611 [interfaces.py:start():188] Started cpu monitoring
+2024-05-28 14:11:36,377 INFO    SystemMonitor:229611 [interfaces.py:start():188] Started disk monitoring
+2024-05-28 14:11:36,378 INFO    SystemMonitor:229611 [interfaces.py:start():188] Started gpu monitoring
+2024-05-28 14:11:36,378 INFO    SystemMonitor:229611 [interfaces.py:start():188] Started memory monitoring
+2024-05-28 14:11:36,379 INFO    SystemMonitor:229611 [interfaces.py:start():188] Started network monitoring
+2024-05-28 14:11:36,409 DEBUG   HandlerThread:229611 [system_info.py:probe():150] Probing system
+2024-05-28 14:11:36,413 DEBUG   HandlerThread:229611 [system_info.py:_probe_git():135] Probing git
+2024-05-28 14:11:36,423 DEBUG   HandlerThread:229611 [system_info.py:_probe_git():143] Probing git done
+2024-05-28 14:11:36,423 DEBUG   HandlerThread:229611 [system_info.py:probe():198] Probing system done
+2024-05-28 14:11:36,423 DEBUG   HandlerThread:229611 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-105-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2024-05-28T18:11:36.409749', 'startedAt': '2024-05-28T18:11:36.048043', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'autoencoder.ipynb', 'codePathLocal': 'autoencoder.ipynb', 'git': {'remote': 'https://github.com/CateMerfeld/mass_spec.git', 'commit': '3ee8ecc6c8b99cc6c95ddb6dfe8eb6e6eb881692'}, 'email': 'catemerfeld@gmail.com', 'root': '/home/cmdunham/mass_spec/mass_spec_repo', 'host': 'paffenroth23-1', 'username': 'cmdunham', 'executable': '/home/cmdunham/mass_spec/mass_spec_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1972.05865625, 'min': 1800.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 3260.376, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1805.877, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 2900.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}], 'disk': {'/': {'total': 438.5479202270508, 'used': 399.06347274780273}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 125.60071563720703}}
+2024-05-28 14:11:36,423 INFO    HandlerThread:229611 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-28 14:11:36,423 INFO    HandlerThread:229611 [system_monitor.py:probe():227] Publishing system info
+2024-05-28 14:11:36,424 INFO    HandlerThread:229611 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-28 14:11:36,426 DEBUG   SenderThread:229611 [sender.py:send():378] send: files
+2024-05-28 14:11:36,426 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-28 14:11:36,476 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-28 14:11:36,476 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: python_packages
+2024-05-28 14:11:36,476 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-28 14:11:36,477 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: stop_status
+2024-05-28 14:11:36,590 DEBUG   SenderThread:229611 [sender.py:send():378] send: telemetry
+2024-05-28 14:11:36,726 INFO    wandb-upload_0:229611 [upload_job.py:push():130] Uploaded file /tmp/tmpnzd_tie6wandb/9kp92ud7-wandb-metadata.json
+2024-05-28 14:11:37,278 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:37,279 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-metadata.json
+2024-05-28 14:11:37,279 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/requirements.txt
+2024-05-28 14:11:39,278 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:40,222 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:40,223 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:40,223 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:40,223 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:40,279 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:11:41,223 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:11:43,279 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:43,883 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:43,883 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:43,883 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:43,884 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:44,280 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:11:45,280 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:46,884 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:11:47,542 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:47,543 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:47,543 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:47,544 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:48,281 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:11:49,281 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:51,260 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:51,261 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:51,261 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:51,261 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:51,282 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:11:51,476 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-28 14:11:51,477 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: stop_status
+2024-05-28 14:11:52,573 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:11:53,283 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:55,016 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:55,016 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:55,016 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:55,017 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:55,283 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:11:57,284 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:11:58,018 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:11:58,715 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:11:58,716 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:11:58,716 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:11:58,716 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:11:59,285 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:01,285 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:02,461 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:12:02,462 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:12:02,462 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:12:02,462 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:03,286 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:03,462 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:12:05,286 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:06,177 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:12:06,178 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:12:06,178 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:12:06,178 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:06,286 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:06,477 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-28 14:12:06,477 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: stop_status
+2024-05-28 14:12:08,564 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:12:09,287 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:09,287 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/config.yaml
+2024-05-28 14:12:09,851 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:12:09,852 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:12:09,852 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:12:09,852 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:10,287 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:11,288 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:13,578 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-28 14:12:13,579 DEBUG   SenderThread:229611 [sender.py:send():378] send: history
+2024-05-28 14:12:13,579 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: summary_record
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:13,581 DEBUG   SenderThread:229611 [sender.py:send():378] send: telemetry
+2024-05-28 14:12:13,581 DEBUG   SenderThread:229611 [sender.py:send():378] send: exit
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:send_exit():585] handling exit code: 0
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:send_exit():587] handling runtime: 37
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:send_exit():593] send defer
+2024-05-28 14:12:13,581 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,581 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-28 14:12:13,581 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-28 14:12:13,581 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 1
+2024-05-28 14:12:13,582 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,582 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-28 14:12:13,582 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,582 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-28 14:12:13,582 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 2
+2024-05-28 14:12:13,582 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,582 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-28 14:12:13,582 INFO    HandlerThread:229611 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-28 14:12:13,583 INFO    HandlerThread:229611 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-28 14:12:13,583 INFO    HandlerThread:229611 [interfaces.py:finish():200] Joined disk monitor
+2024-05-28 14:12:13,583 DEBUG   SystemMonitor:229611 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-28 14:12:13,583 DEBUG   SystemMonitor:229611 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-28 14:12:13,583 DEBUG   SystemMonitor:229611 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-28 14:12:13,645 INFO    HandlerThread:229611 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-28 14:12:13,645 INFO    HandlerThread:229611 [interfaces.py:finish():200] Joined memory monitor
+2024-05-28 14:12:13,645 INFO    HandlerThread:229611 [interfaces.py:finish():200] Joined network monitor
+2024-05-28 14:12:13,645 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,645 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-28 14:12:13,645 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 3
+2024-05-28 14:12:13,645 DEBUG   SenderThread:229611 [sender.py:send():378] send: stats
+2024-05-28 14:12:13,646 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,646 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-28 14:12:13,646 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:12:13,646 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,646 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-28 14:12:13,646 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 4
+2024-05-28 14:12:13,646 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,646 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-28 14:12:13,647 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,647 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-28 14:12:13,647 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 5
+2024-05-28 14:12:13,647 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,647 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-28 14:12:13,647 DEBUG   SenderThread:229611 [sender.py:send():378] send: summary
+2024-05-28 14:12:13,648 INFO    SenderThread:229611 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-28 14:12:13,648 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,648 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-28 14:12:13,648 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 6
+2024-05-28 14:12:13,648 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,648 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-28 14:12:13,648 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,648 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-28 14:12:13,651 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: status_report
+2024-05-28 14:12:13,743 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 7
+2024-05-28 14:12:13,743 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:13,743 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-28 14:12:13,743 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:13,743 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-28 14:12:14,289 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:14,289 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/config.yaml
+2024-05-28 14:12:14,579 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-28 14:12:14,636 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 8
+2024-05-28 14:12:14,636 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: poll_exit
+2024-05-28 14:12:14,637 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:14,637 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-28 14:12:14,637 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:14,637 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-28 14:12:14,637 INFO    SenderThread:229611 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-28 14:12:14,637 INFO    SenderThread:229611 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-28 14:12:14,637 INFO    SenderThread:229611 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-05-28 14:12:14,658 INFO    SenderThread:229611 [job_builder.py:build():541] adding wandb-job metadata file
+2024-05-28 14:12:14,661 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 9
+2024-05-28 14:12:14,661 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:14,661 DEBUG   SenderThread:229611 [sender.py:send():378] send: artifact
+2024-05-28 14:12:14,661 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-28 14:12:15,010 INFO    SenderThread:229611 [sender.py:send_artifact():1467] sent artifact job-https___github.com_CateMerfeld_mass_spec.git_autoencoder.ipynb - {'id': 'QXJ0aWZhY3Q6ODUyNTk1Mjcz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3OTkyOTA5Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODUyNTk2Nzc1', 'versionIndex': 6}}}
+2024-05-28 14:12:15,010 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,010 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-28 14:12:15,010 INFO    SenderThread:229611 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-28 14:12:15,289 INFO    Thread-12 :229611 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:15,290 INFO    SenderThread:229611 [dir_watcher.py:finish():388] scan: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files
+2024-05-28 14:12:15,290 INFO    SenderThread:229611 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log output.log
+2024-05-28 14:12:15,290 INFO    SenderThread:229611 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-metadata.json wandb-metadata.json
+2024-05-28 14:12:15,290 INFO    SenderThread:229611 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json wandb-summary.json
+2024-05-28 14:12:15,291 INFO    SenderThread:229611 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/config.yaml config.yaml
+2024-05-28 14:12:15,291 INFO    SenderThread:229611 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/requirements.txt requirements.txt
+2024-05-28 14:12:15,291 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 10
+2024-05-28 14:12:15,291 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:15,294 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-28 14:12:15,299 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,301 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-28 14:12:15,301 INFO    SenderThread:229611 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-28 14:12:15,503 INFO    wandb-upload_1:229611 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/output.log
+2024-05-28 14:12:15,539 INFO    wandb-upload_0:229611 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/config.yaml
+2024-05-28 14:12:15,561 INFO    wandb-upload_2:229611 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/wandb-summary.json
+2024-05-28 14:12:15,579 INFO    wandb-upload_3:229611 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/files/requirements.txt
+2024-05-28 14:12:15,581 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-28 14:12:15,582 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: poll_exit
+2024-05-28 14:12:15,781 INFO    Thread-11 :229611 [sender.py:transition_state():613] send defer: 11
+2024-05-28 14:12:15,782 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:15,782 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-28 14:12:15,782 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,782 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-28 14:12:15,782 INFO    SenderThread:229611 [file_pusher.py:join():175] waiting for file pusher
+2024-05-28 14:12:15,782 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 12
+2024-05-28 14:12:15,783 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:15,783 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-28 14:12:15,783 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,783 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-28 14:12:15,783 INFO    SenderThread:229611 [file_stream.py:finish():601] file stream finish called
+2024-05-28 14:12:15,853 INFO    SenderThread:229611 [file_stream.py:finish():605] file stream finish is done
+2024-05-28 14:12:15,853 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 13
+2024-05-28 14:12:15,853 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:15,853 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-28 14:12:15,853 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,854 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-28 14:12:15,854 INFO    SenderThread:229611 [sender.py:transition_state():613] send defer: 14
+2024-05-28 14:12:15,854 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: defer
+2024-05-28 14:12:15,854 INFO    HandlerThread:229611 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-28 14:12:15,854 DEBUG   SenderThread:229611 [sender.py:send():378] send: final
+2024-05-28 14:12:15,854 DEBUG   SenderThread:229611 [sender.py:send():378] send: footer
+2024-05-28 14:12:15,855 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: defer
+2024-05-28 14:12:15,855 INFO    SenderThread:229611 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-28 14:12:15,855 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-28 14:12:15,856 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: poll_exit
+2024-05-28 14:12:15,857 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-28 14:12:15,857 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: server_info
+2024-05-28 14:12:15,858 DEBUG   SenderThread:229611 [sender.py:send_request():405] send_request: server_info
+2024-05-28 14:12:15,900 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-28 14:12:15,900 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-28 14:12:15,944 DEBUG   HandlerThread:229611 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-28 14:12:15,944 INFO    HandlerThread:229611 [handler.py:finish():882] shutting down handler
+2024-05-28 14:12:16,858 INFO    WriterThread:229611 [datastore.py:close():296] close: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240528_141136-o10c6dc3/run-o10c6dc3.wandb
+2024-05-28 14:12:16,905 INFO    SenderThread:229611 [sender.py:finish():1545] shutting down sender
+2024-05-28 14:12:16,906 INFO    SenderThread:229611 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-28 14:12:16,906 INFO    SenderThread:229611 [file_pusher.py:join():175] waiting for file pusher

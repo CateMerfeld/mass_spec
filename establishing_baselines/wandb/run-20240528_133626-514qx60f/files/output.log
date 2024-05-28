@@ -1,0 +1,19 @@
+
+Using device: cuda
+Epoch[10/100], train loss: 13.196405
+Epoch[20/100], train loss: 12.759149
+Epoch[30/100], train loss: 10.701154
+Epoch[40/100], train loss: 8.622276
+Epoch[50/100], train loss: 6.927659
+Epoch[60/100], train loss: 5.752143
+Epoch[70/100], train loss: 4.852926
+Epoch[80/100], train loss: 4.113212
+Epoch[90/100], train loss: 2.866124
+Epoch[100/100], train loss: 2.472563
+Loss = tensor(12.4597)
+Weighted cosine similarity between true spectrum and noisy spectrum is:  0.1361
+Weighted cosine similarity between true spectrum and output spectrum is:  0.4757
+Weighted cosine similarity between true spectrum and noisy spectrum is:  0.0843
+Weighted cosine similarity between true spectrum and output spectrum is:  0.0737
+Weighted cosine similarity between true spectrum and noisy spectrum is:  0.4843
+Weighted cosine similarity between true spectrum and output spectrum is:  0.5862

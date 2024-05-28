@@ -1,0 +1,13 @@
+
+Using device: cuda
+Epoch[10/100], train loss: 12.722966
+Epoch[20/100], train loss: 10.24961
+Epoch[30/100], train loss: 7.419991
+Epoch[40/100], train loss: 6.308938
+Epoch[50/100], train loss: 5.213758
+Epoch[60/100], train loss: 4.290355
+Epoch[70/100], train loss: 3.393659
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+Epoch[80/100], train loss: 3.096112
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
