@@ -1,0 +1,1 @@
+{"spectra_comparison": {"_type": "image-file", "sha256": "441af3eb6341673dd1910f58b360e35f338c477f35c5a5565f8f90dab8c2b87b", "size": 44316, "path": "media/images/spectra_comparison_2_441af3eb6341673dd191.png", "format": "png", "width": 2000, "height": 1000}, "_timestamp": 1716930350.001866, "_runtime": 4.380171060562134, "_step": 2, "_wandb": {"runtime": 4}}

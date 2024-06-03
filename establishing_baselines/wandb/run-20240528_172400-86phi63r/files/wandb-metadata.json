@@ -1,0 +1,211 @@
+{
+    "os": "Linux-5.15.0-105-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-05-28T21:24:05.355024",
+    "startedAt": "2024-05-28T21:24:00.708560",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "autoencoder.ipynb",
+    "codePathLocal": "autoencoder.ipynb",
+    "git": {
+        "remote": "https://github.com/CateMerfeld/mass_spec.git",
+        "commit": "54a27266b26c7e2b64ac2975fccfac020a3d266d"
+    },
+    "email": "catemerfeld@gmail.com",
+    "root": "/home/cmdunham/mass_spec/mass_spec_repo",
+    "host": "paffenroth23-1",
+    "username": "cmdunham",
+    "executable": "/home/cmdunham/mass_spec/mass_spec_env/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1808.920625,
+        "min": 1800.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1796.505,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        },
+        {
+            "current": 1800.0,
+            "min": 1800.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 438.5479202270508,
+            "used": 399.06896209716797
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 125.60071563720703
+    }
+}
