@@ -1,0 +1,11 @@
+Using device: cuda
+Epoch[10/100], train loss: 13.515385
+Epoch[20/100], train loss: 12.632495
+Epoch[30/100], train loss: 12.329636
+Epoch[40/100], train loss: 12.09488
+Epoch[50/100], train loss: 11.824271
+Epoch[60/100], train loss: 11.618168
+Epoch[70/100], train loss: 11.397443
+Epoch[80/100], train loss: 11.27923
+Epoch[90/100], train loss: 11.070543
+Epoch[100/100], train loss: 10.972216
