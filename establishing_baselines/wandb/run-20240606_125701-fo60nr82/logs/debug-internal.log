@@ -1,0 +1,1091 @@
+2024-06-06 12:57:01,464 INFO    StreamThr :12758 [internal.py:wandb_internal():85] W&B internal server running at pid: 12758, started at: 2024-06-06 12:57:01.463898
+2024-06-06 12:57:01,466 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status
+2024-06-06 12:57:01,470 INFO    WriterThread:12758 [datastore.py:open_for_write():87] open: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/run-fo60nr82.wandb
+2024-06-06 12:57:01,470 DEBUG   SenderThread:12758 [sender.py:send():378] send: header
+2024-06-06 12:57:01,492 DEBUG   SenderThread:12758 [sender.py:send():378] send: run
+2024-06-06 12:57:01,691 INFO    SenderThread:12758 [dir_watcher.py:__init__():211] watching files in: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files
+2024-06-06 12:57:01,691 INFO    SenderThread:12758 [sender.py:_start_run_threads():1123] run started: fo60nr82 with start time 1717693021.463435
+2024-06-06 12:57:01,700 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: check_version
+2024-06-06 12:57:01,701 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: check_version
+2024-06-06 12:57:01,981 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: run_start
+2024-06-06 12:57:01,982 DEBUG   HandlerThread:12758 [system_info.py:__init__():26] System info init
+2024-06-06 12:57:01,982 DEBUG   HandlerThread:12758 [system_info.py:__init__():41] System info init done
+2024-06-06 12:57:01,982 INFO    HandlerThread:12758 [system_monitor.py:start():194] Starting system monitor
+2024-06-06 12:57:01,983 INFO    SystemMonitor:12758 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-06 12:57:01,984 INFO    HandlerThread:12758 [system_monitor.py:probe():214] Collecting system info
+2024-06-06 12:57:01,984 INFO    SystemMonitor:12758 [interfaces.py:start():188] Started cpu monitoring
+2024-06-06 12:57:01,985 INFO    SystemMonitor:12758 [interfaces.py:start():188] Started disk monitoring
+2024-06-06 12:57:01,986 INFO    SystemMonitor:12758 [interfaces.py:start():188] Started gpu monitoring
+2024-06-06 12:57:01,986 INFO    SystemMonitor:12758 [interfaces.py:start():188] Started memory monitoring
+2024-06-06 12:57:01,986 INFO    SystemMonitor:12758 [interfaces.py:start():188] Started network monitoring
+2024-06-06 12:57:02,015 DEBUG   HandlerThread:12758 [system_info.py:probe():150] Probing system
+2024-06-06 12:57:02,015 DEBUG   HandlerThread:12758 [system_info.py:_probe_git():135] Probing git
+2024-06-06 12:57:02,030 DEBUG   HandlerThread:12758 [system_info.py:_probe_git():143] Probing git done
+2024-06-06 12:57:02,030 DEBUG   HandlerThread:12758 [system_info.py:probe():198] Probing system done
+2024-06-06 12:57:02,030 DEBUG   HandlerThread:12758 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-107-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2024-06-06T16:57:02.015446', 'startedAt': '2024-06-06T16:57:01.459796', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'variational_autoencoder.ipynb', 'codePathLocal': 'variational_autoencoder.ipynb', 'git': {'remote': 'https://github.com/CateMerfeld/mass_spec.git', 'commit': '6fd97a82c6a97472e1c1340a2a4f75cf40c3f654'}, 'email': 'catemerfeld@gmail.com', 'root': '/home/cmdunham/mass_spec/mass_spec_repo', 'host': 'paffenroth23-1', 'username': 'cmdunham', 'executable': '/home/cmdunham/mass_spec/mass_spec_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1884.40409375, 'min': 1800.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 2900.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 2300.931, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 2900.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}, {'current': 1800.0, 'min': 1800.0, 'max': 4000.0}], 'disk': {'/': {'total': 438.5479202270508, 'used': 318.68256759643555}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}, {'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 125.60070037841797}}
+2024-06-06 12:57:02,031 INFO    HandlerThread:12758 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-06 12:57:02,031 INFO    HandlerThread:12758 [system_monitor.py:probe():227] Publishing system info
+2024-06-06 12:57:02,031 INFO    HandlerThread:12758 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-06 12:57:02,032 DEBUG   SenderThread:12758 [sender.py:send():378] send: files
+2024-06-06 12:57:02,032 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-06-06 12:57:02,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-06 12:57:02,103 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: python_packages
+2024-06-06 12:57:02,104 DEBUG   SenderThread:12758 [sender.py:send():378] send: telemetry
+2024-06-06 12:57:02,148 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-06 12:57:02,149 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: stop_status
+2024-06-06 12:57:02,347 INFO    wandb-upload_0:12758 [upload_job.py:push():130] Uploaded file /tmp/tmpb91_cm_ywandb/lq9meot9-wandb-metadata.json
+2024-06-06 12:57:02,487 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:02,488 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:02,488 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:02,489 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:02,693 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-metadata.json
+2024-06-06 12:57:02,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/requirements.txt
+2024-06-06 12:57:02,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:02,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_created():271] file/dir created: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:02,854 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:02,854 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:02,854 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:02,855 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:03,222 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:03,222 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:03,223 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:03,223 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:03,595 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:03,596 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:03,596 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:03,596 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:03,692 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:03,967 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:03,968 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:03,968 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:03,970 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:04,333 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:04,333 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:04,333 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:04,334 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:04,692 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:04,693 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:04,698 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:04,698 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:04,699 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:04,699 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:05,062 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:05,063 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:05,063 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:05,063 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:05,432 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:05,432 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:05,433 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:05,433 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:05,693 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:05,797 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:05,797 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:05,798 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:05,798 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:06,162 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:06,163 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:06,163 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:06,164 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:06,528 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:06,529 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:06,529 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:06,529 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:06,530 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:06,693 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:06,894 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:06,895 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:06,895 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:06,895 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:07,261 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:07,262 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:07,262 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:07,262 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:07,635 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:07,635 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:07,635 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:07,636 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:07,693 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:08,005 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:08,006 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:08,006 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:08,006 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:08,377 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:08,378 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:08,378 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:08,378 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:08,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:08,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:08,746 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:08,746 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:08,746 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:08,746 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:09,115 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:09,115 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:09,115 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:09,116 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:09,482 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:09,483 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:09,483 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:09,483 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:09,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:09,852 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:09,853 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:09,853 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:09,853 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:10,220 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:10,221 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:10,221 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:10,221 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:10,586 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:10,587 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:10,587 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:10,587 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:10,694 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:10,695 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:10,953 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:10,953 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:10,953 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:10,954 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:11,321 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:11,321 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:11,321 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:11,321 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:11,692 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:11,692 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:11,692 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:11,693 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:11,693 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:11,695 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:12,058 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:12,058 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:12,058 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:12,059 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:12,424 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:12,425 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:12,425 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:12,427 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:12,695 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:12,793 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:12,793 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:12,793 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:12,794 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:13,160 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:13,161 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:13,161 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:13,161 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:13,529 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:13,529 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:13,529 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:13,530 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:13,695 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:13,899 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:13,900 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:13,900 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:13,900 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:14,271 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:14,271 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:14,272 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:14,272 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:14,640 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:14,641 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:14,641 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:14,643 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:14,695 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:14,696 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:15,009 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:15,010 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:15,010 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:15,010 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:15,375 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:15,376 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:15,376 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:15,376 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:15,696 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:15,740 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:15,740 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:15,740 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:15,741 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:16,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:16,103 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:16,103 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:16,103 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:16,473 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:16,473 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:16,473 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:16,474 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:16,696 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:16,846 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:16,847 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:16,847 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:16,849 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:16,849 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:17,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-06 12:57:17,104 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: stop_status
+2024-06-06 12:57:17,215 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:17,233 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:17,233 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:17,234 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:17,585 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:17,586 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:17,586 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:17,587 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:17,696 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:17,958 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:17,959 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:17,959 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:17,959 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:18,328 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:18,328 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:18,329 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:18,329 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:18,697 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:18,697 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:18,697 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:18,698 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:18,698 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:18,698 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:19,068 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:19,068 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:19,068 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:19,070 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:19,437 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:19,438 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:19,438 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:19,438 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:19,697 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:19,809 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:19,810 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:19,810 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:19,810 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:20,179 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:20,179 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:20,179 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:20,180 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:20,549 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:20,550 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:20,550 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:20,550 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:20,697 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:20,919 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:20,919 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:20,920 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:20,920 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:21,283 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:21,284 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:21,284 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:21,285 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:21,651 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:21,651 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:21,651 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:21,652 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:21,698 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:22,018 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:22,019 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:22,019 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:22,019 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:22,019 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:22,387 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:22,388 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:22,388 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:22,388 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:22,698 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:22,698 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:22,755 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:22,755 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:22,755 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:22,755 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:23,121 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:23,121 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:23,121 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:23,122 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:23,490 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:23,491 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:23,491 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:23,493 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:23,698 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:23,868 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:23,868 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:23,868 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:23,868 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:24,237 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:24,238 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:24,238 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:24,238 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:24,607 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:24,608 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:24,608 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:24,608 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:24,698 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:24,699 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:24,972 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:24,973 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:24,973 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:24,973 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:25,337 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:25,338 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:25,338 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:25,338 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:25,699 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:25,705 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:25,705 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:25,706 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:25,707 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:26,074 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:26,075 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:26,075 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:26,075 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:26,443 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:26,444 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:26,444 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:26,444 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:26,699 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:26,812 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:26,813 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:26,813 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:26,813 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:27,183 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:27,184 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:27,184 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:27,184 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:27,185 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:27,550 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:27,550 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:27,551 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:27,551 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:27,699 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:27,922 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:27,923 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:27,923 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:27,925 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:28,295 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:28,296 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:28,296 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:28,296 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:28,665 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:28,665 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:28,665 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:28,666 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:28,700 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:28,700 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:29,034 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:29,035 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:29,035 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:29,035 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:29,405 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:29,406 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:29,406 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:29,406 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:29,700 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:29,774 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:29,775 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:29,775 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:29,775 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:30,148 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:30,148 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:30,149 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:30,150 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:30,516 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:30,517 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:30,517 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:30,517 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:30,700 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:30,884 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:30,885 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:30,885 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:30,885 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:31,256 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:31,256 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:31,257 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:31,257 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:31,627 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:31,627 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:31,628 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:31,628 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:31,700 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:31,998 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:31,999 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:31,999 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:31,999 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:32,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-06 12:57:32,104 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: stop_status
+2024-06-06 12:57:32,221 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:32,369 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:32,369 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:32,369 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:32,370 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:32,701 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:32,701 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:32,701 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/config.yaml
+2024-06-06 12:57:32,737 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:32,738 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:32,738 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:32,739 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:33,104 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:33,105 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:33,105 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:33,105 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:33,474 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:33,474 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:33,474 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:33,475 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:33,701 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:33,843 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:33,844 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:33,844 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:33,844 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:34,211 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:34,212 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:34,212 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:34,212 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:34,577 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:34,578 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:34,578 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:34,580 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:34,701 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:34,944 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:34,945 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:34,945 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:34,946 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:35,314 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:35,315 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:35,315 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:35,316 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:35,683 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:35,684 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:35,684 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:35,685 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:35,702 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:36,057 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:36,057 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:36,057 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:36,058 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:36,428 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:36,429 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:36,429 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:36,429 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:36,702 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:36,702 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:36,797 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:36,798 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:36,798 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:36,800 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:37,167 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:37,167 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:37,168 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:37,168 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:37,536 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:37,537 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:37,537 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:37,538 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:37,538 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:37,702 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:37,905 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:37,906 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:37,906 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:37,906 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:38,274 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:38,275 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:38,275 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:38,276 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:38,640 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:38,641 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:38,641 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:38,642 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:38,702 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:39,008 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:39,009 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:39,009 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:39,011 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:39,379 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:39,380 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:39,380 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:39,380 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:39,703 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:39,749 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:39,750 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:39,750 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:39,751 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:40,118 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:40,119 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:40,119 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:40,119 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:40,486 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:40,487 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:40,487 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:40,488 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:40,703 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:40,703 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:40,854 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:40,855 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:40,855 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:40,855 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:41,221 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:41,221 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:41,222 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:41,223 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:41,589 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:41,590 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:41,590 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:41,590 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:41,703 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:41,958 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:41,959 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:41,959 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:41,959 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:42,327 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:42,328 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:42,328 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:42,328 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:42,695 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:42,696 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:42,696 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:42,696 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:42,697 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:42,704 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:43,071 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:43,072 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:43,072 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:43,073 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:43,442 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:43,443 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:43,443 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:43,445 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:43,704 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:43,810 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:43,811 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:43,811 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:43,811 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:44,179 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:44,179 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:44,179 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:44,180 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:44,547 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:44,547 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:44,548 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:44,548 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:44,704 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:44,704 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:44,914 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:44,915 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:44,915 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:44,915 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:45,284 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:45,285 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:45,285 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:45,285 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:45,654 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:45,654 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:45,654 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:45,656 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:45,704 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:46,021 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:46,022 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:46,022 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:46,022 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:46,387 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:46,388 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:46,388 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:46,388 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:46,705 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:46,756 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:46,757 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:46,757 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:46,757 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:47,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-06 12:57:47,104 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: stop_status
+2024-06-06 12:57:47,123 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:47,238 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:47,239 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:47,239 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:47,489 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:47,489 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:47,490 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:47,490 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:47,705 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:47,856 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:47,856 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:47,857 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:47,857 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:47,859 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:48,225 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:48,225 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:48,226 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:48,226 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:48,595 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:48,596 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:48,596 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:48,596 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:48,705 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:48,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:48,967 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:48,967 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:48,968 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:48,968 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:49,335 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:49,336 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:49,336 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:49,337 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:49,703 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:49,704 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:49,704 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:49,705 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:49,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:50,070 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:50,071 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:50,071 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:50,073 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:50,438 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:50,438 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:50,439 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:50,439 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:50,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:50,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:50,804 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:50,805 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:50,805 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:50,806 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:51,177 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:51,177 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:51,177 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:51,178 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:51,546 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:51,547 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:51,547 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:51,547 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:51,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:51,916 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:51,917 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:51,917 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:51,917 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:52,282 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:52,283 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:52,283 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:52,285 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:52,647 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:52,647 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:52,648 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:52,648 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:52,706 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:53,014 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:53,015 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:53,015 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:53,015 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:53,016 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:53,379 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:53,380 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:53,380 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:53,380 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:53,707 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:53,743 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:53,744 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:53,744 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:53,745 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:54,109 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:54,110 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:54,110 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:54,110 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:54,477 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:54,478 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:54,478 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:54,478 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:54,707 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:54,707 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:54,845 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:54,845 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:54,845 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:54,846 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:55,213 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:55,214 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:55,214 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:55,214 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:55,577 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:55,577 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:55,578 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:55,578 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:55,707 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:55,944 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:55,945 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:55,945 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:55,945 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:56,310 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:56,311 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:56,311 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:56,311 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:56,674 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:56,675 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:56,675 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:56,677 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:56,707 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:57,041 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:57,041 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:57,042 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:57,042 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:57,407 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:57,408 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:57,408 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:57,408 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:57,708 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:57,773 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:57,774 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:57,774 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:57,774 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:58,139 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:58,139 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:58,140 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:58,140 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:57:58,140 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:58,510 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:58,510 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:58,510 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:58,511 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:58,708 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:58,708 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:57:58,879 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:58,879 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:58,880 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:58,881 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:59,247 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:59,248 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:59,248 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:59,248 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:59,620 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:59,620 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:59,620 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:59,621 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:57:59,708 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:57:59,989 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:57:59,989 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:57:59,990 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:57:59,990 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:00,356 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:00,357 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:00,357 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:00,358 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:00,709 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:00,723 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:00,724 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:00,724 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:00,724 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:01,090 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:01,091 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:01,091 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:01,093 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:01,460 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:01,461 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:01,461 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:01,461 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:01,709 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:01,827 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:01,827 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:01,828 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:01,828 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:01,987 DEBUG   SystemMonitor:12758 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-06 12:58:01,988 DEBUG   SenderThread:12758 [sender.py:send():378] send: stats
+2024-06-06 12:58:02,103 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-06 12:58:02,104 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: stop_status
+2024-06-06 12:58:02,194 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:02,262 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:02,262 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:02,263 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:02,558 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:02,559 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:02,559 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:02,559 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:02,709 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:02,709 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:02,927 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:02,928 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:02,928 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:02,928 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:03,294 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:03,294 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:03,295 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:03,295 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:58:03,295 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:03,661 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:03,662 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:03,662 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:03,662 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:03,709 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:04,033 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:04,034 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:04,034 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:04,035 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:04,400 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:04,401 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:04,401 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:04,401 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:04,710 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:04,766 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:04,768 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:04,768 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:04,768 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:05,133 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:05,134 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:05,134 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:05,135 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:05,504 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:05,504 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:05,505 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:05,505 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:05,710 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:05,872 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:05,873 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:05,873 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:05,873 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:06,238 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:06,239 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:06,239 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:06,239 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:06,603 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:06,604 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:06,604 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:06,605 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:06,710 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:06,710 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:06,969 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:06,970 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:06,970 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:06,970 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:07,344 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:07,345 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:07,345 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:07,345 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:07,711 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:07,712 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:07,713 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:07,713 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:07,714 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:08,079 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:08,080 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:08,080 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:08,080 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:08,447 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:08,447 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:08,448 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:08,448 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:58:08,448 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:08,711 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:08,816 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:08,816 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:08,816 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:08,817 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:09,182 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:09,182 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:09,182 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:09,183 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:09,548 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:09,548 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:09,549 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:09,549 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:09,711 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:09,915 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:09,916 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:09,916 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:09,916 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:10,287 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:10,288 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:10,288 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:10,288 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:10,655 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:10,656 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:10,656 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:10,656 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:10,711 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:10,712 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:11,022 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:11,023 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:11,023 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:11,023 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:11,391 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:11,391 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:11,391 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:11,393 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:11,712 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:11,757 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:11,757 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:11,757 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:11,758 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:12,121 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:12,121 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:12,122 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:12,122 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:12,488 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:12,489 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:12,489 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:12,489 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:12,712 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:12,712 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:12,855 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:12,856 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:12,856 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:12,856 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:13,222 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:13,222 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:13,223 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:13,223 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:13,589 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:13,590 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:13,590 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:13,590 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:58:13,591 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:13,712 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:13,954 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:13,954 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:13,954 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:13,955 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:14,320 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:14,321 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:14,321 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:14,321 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:14,690 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:14,690 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:14,690 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:14,691 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:14,713 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:15,058 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:15,058 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:15,058 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:15,059 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:15,426 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:15,426 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:15,426 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:15,427 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:15,713 INFO    Thread-60 :12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:15,969 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: partial_history
+2024-06-06 12:58:15,970 DEBUG   SenderThread:12758 [sender.py:send():378] send: history
+2024-06-06 12:58:15,970 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: summary_record
+2024-06-06 12:58:15,971 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:15,971 DEBUG   SenderThread:12758 [sender.py:send():378] send: telemetry
+2024-06-06 12:58:15,971 DEBUG   SenderThread:12758 [sender.py:send():378] send: exit
+2024-06-06 12:58:15,971 INFO    SenderThread:12758 [sender.py:send_exit():585] handling exit code: 0
+2024-06-06 12:58:15,971 INFO    SenderThread:12758 [sender.py:send_exit():587] handling runtime: 73
+2024-06-06 12:58:15,972 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:15,972 INFO    SenderThread:12758 [sender.py:send_exit():593] send defer
+2024-06-06 12:58:15,972 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:15,972 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-06 12:58:15,973 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:15,973 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-06-06 12:58:15,973 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 1
+2024-06-06 12:58:15,973 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:15,973 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-06 12:58:15,973 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:15,973 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-06-06 12:58:15,973 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 2
+2024-06-06 12:58:15,973 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:15,973 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-06 12:58:15,973 INFO    HandlerThread:12758 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-06 12:58:15,974 DEBUG   SystemMonitor:12758 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-06 12:58:15,974 INFO    HandlerThread:12758 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-06 12:58:15,974 DEBUG   SystemMonitor:12758 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-06 12:58:15,975 INFO    HandlerThread:12758 [interfaces.py:finish():200] Joined disk monitor
+2024-06-06 12:58:16,034 INFO    HandlerThread:12758 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-06 12:58:16,034 INFO    HandlerThread:12758 [interfaces.py:finish():200] Joined memory monitor
+2024-06-06 12:58:16,034 INFO    HandlerThread:12758 [interfaces.py:finish():200] Joined network monitor
+2024-06-06 12:58:16,034 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,034 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-06-06 12:58:16,034 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 3
+2024-06-06 12:58:16,035 DEBUG   SenderThread:12758 [sender.py:send():378] send: stats
+2024-06-06 12:58:16,035 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,035 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-06 12:58:16,035 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,036 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-06-06 12:58:16,036 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 4
+2024-06-06 12:58:16,036 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,036 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-06 12:58:16,036 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,036 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-06-06 12:58:16,036 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 5
+2024-06-06 12:58:16,036 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,036 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-06 12:58:16,037 DEBUG   SenderThread:12758 [sender.py:send():378] send: summary
+2024-06-06 12:58:16,037 INFO    SenderThread:12758 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-06-06 12:58:16,038 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,038 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-06-06 12:58:16,038 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 6
+2024-06-06 12:58:16,038 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,038 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-06 12:58:16,038 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,038 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-06-06 12:58:16,043 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: status_report
+2024-06-06 12:58:16,213 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 7
+2024-06-06 12:58:16,213 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,213 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-06 12:58:16,214 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,214 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-06-06 12:58:16,357 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 8
+2024-06-06 12:58:16,358 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,358 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-06 12:58:16,358 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,358 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-06-06 12:58:16,358 INFO    SenderThread:12758 [job_builder.py:build():432] Attempting to build job artifact
+2024-06-06 12:58:16,359 INFO    SenderThread:12758 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-06-06 12:58:16,359 INFO    SenderThread:12758 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-06-06 12:58:16,362 INFO    SenderThread:12758 [job_builder.py:build():541] adding wandb-job metadata file
+2024-06-06 12:58:16,364 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 9
+2024-06-06 12:58:16,364 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,364 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-06 12:58:16,365 DEBUG   SenderThread:12758 [sender.py:send():378] send: artifact
+2024-06-06 12:58:16,697 INFO    SenderThread:12758 [sender.py:send_artifact():1467] sent artifact job-https___github.com_CateMerfeld_mass_spec.git_variational_autoencoder.ipynb - {'id': 'QXJ0aWZhY3Q6ODU5MTIxOTQw', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MTg4Mjg3Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODU5MTYzMTY5', 'versionIndex': 4}}}
+2024-06-06 12:58:16,697 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,697 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-06-06 12:58:16,697 INFO    SenderThread:12758 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-06 12:58:16,714 INFO    SenderThread:12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:16,714 INFO    SenderThread:12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/config.yaml
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:finish():388] scan: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log output.log
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-metadata.json wandb-metadata.json
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json wandb-summary.json
+2024-06-06 12:58:16,715 INFO    SenderThread:12758 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/config.yaml config.yaml
+2024-06-06 12:58:16,718 INFO    SenderThread:12758 [dir_watcher.py:finish():402] scan save: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/requirements.txt requirements.txt
+2024-06-06 12:58:16,718 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 10
+2024-06-06 12:58:16,725 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:16,725 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-06 12:58:16,726 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:16,726 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-06-06 12:58:16,726 INFO    SenderThread:12758 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-06 12:58:16,929 INFO    wandb-upload_0:12758 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/output.log
+2024-06-06 12:58:16,972 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-06 12:58:16,972 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: poll_exit
+2024-06-06 12:58:17,034 INFO    wandb-upload_2:12758 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/config.yaml
+2024-06-06 12:58:17,036 INFO    wandb-upload_1:12758 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/wandb-summary.json
+2024-06-06 12:58:17,042 INFO    wandb-upload_3:12758 [upload_job.py:push():130] Uploaded file /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/files/requirements.txt
+2024-06-06 12:58:17,243 INFO    Thread-59 :12758 [sender.py:transition_state():613] send defer: 11
+2024-06-06 12:58:17,244 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:17,244 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-06 12:58:17,245 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:17,245 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-06-06 12:58:17,245 INFO    SenderThread:12758 [file_pusher.py:join():175] waiting for file pusher
+2024-06-06 12:58:17,245 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 12
+2024-06-06 12:58:17,245 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:17,245 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-06 12:58:17,246 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:17,246 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-06-06 12:58:17,246 INFO    SenderThread:12758 [file_stream.py:finish():601] file stream finish called
+2024-06-06 12:58:17,457 INFO    SenderThread:12758 [file_stream.py:finish():605] file stream finish is done
+2024-06-06 12:58:17,457 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 13
+2024-06-06 12:58:17,457 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:17,458 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-06 12:58:17,458 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:17,458 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-06-06 12:58:17,458 INFO    SenderThread:12758 [sender.py:transition_state():613] send defer: 14
+2024-06-06 12:58:17,458 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: defer
+2024-06-06 12:58:17,458 INFO    HandlerThread:12758 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-06 12:58:17,459 DEBUG   SenderThread:12758 [sender.py:send():378] send: final
+2024-06-06 12:58:17,459 DEBUG   SenderThread:12758 [sender.py:send():378] send: footer
+2024-06-06 12:58:17,459 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: defer
+2024-06-06 12:58:17,459 INFO    SenderThread:12758 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-06-06 12:58:17,460 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-06 12:58:17,461 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: poll_exit
+2024-06-06 12:58:17,465 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-06 12:58:17,466 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: server_info
+2024-06-06 12:58:17,466 DEBUG   SenderThread:12758 [sender.py:send_request():405] send_request: server_info
+2024-06-06 12:58:17,509 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-06 12:58:17,509 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-06 12:58:17,553 DEBUG   HandlerThread:12758 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-06 12:58:17,554 INFO    HandlerThread:12758 [handler.py:finish():882] shutting down handler
+2024-06-06 12:58:18,467 INFO    WriterThread:12758 [datastore.py:close():296] close: /home/cmdunham/mass_spec/mass_spec_repo/establishing_baselines/wandb/run-20240606_125701-fo60nr82/run-fo60nr82.wandb
+2024-06-06 12:58:18,518 INFO    SenderThread:12758 [sender.py:finish():1545] shutting down sender
+2024-06-06 12:58:18,518 INFO    SenderThread:12758 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-06 12:58:18,518 INFO    SenderThread:12758 [file_pusher.py:join():175] waiting for file pusher
